@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Juegos online gratis para jugar desde el navegador">
+  <title>JuegosYA - Juegos online gratis</title>
+  <!-- El Alumno 2 se encarga de este archivo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== CABECERA ========== -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">🎮 JuegosYA</a>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#populares">Populares</a></li>
+        <li><a href="#nuevos">Nuevos</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+      </ul>
+    </nav>
+
+    <div class="search-box">
+      <input type="search" id="buscador" name="buscador" placeholder="Buscar juegos...">
+      <button type="button">Buscar</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== BANNER PRINCIPAL ========== -->
+    <section class="hero">
+      <h1>Juega gratis, sin descargas</h1>
+      <p>Los mejores juegos online directamente en tu navegador. ¡Elige uno y empieza a jugar!</p>
+      <a href="#populares" class="btn btn-primary">Jugar ahora</a>
+    </section>
+
+    <!-- ========== CATEGORÍAS ========== -->
+    <section id="categorias" class="categories">
+      <h2>Categorías</h2>
+      <ul class="category-list">
+        <li><a href="#" class="category">🏃 Acción</a></li>
+        <li><a href="#" class="category">🧩 Puzzles</a></li>
+        <li><a href="#" class="category">🏎️ Carreras</a></li>
+        <li><a href="#" class="category">⚽ Deportes</a></li>
+        <li><a href="#" class="category">🗺️ Aventura</a></li>
+        <li><a href="#" class="category">♟️ Estrategia</a></li>
+        <li><a href="#" class="category">👥 Multijugador</a></li>
+        <li><a href="#" class="category">👧 Niños</a></li>
+      </ul>
+    </section>
+
+    <!-- ========== JUEGOS POPULARES ========== -->
+    <section id="populares" class="games-section">
+      <h2>🔥 Juegos populares</h2>
+      <div class="games-grid">
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🏎️</div>
+            <h3>Super Racer</h3>
+            <p class="game-category">Carreras</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🧱</div>
+            <h3>Block Puzzle</h3>
+            <p class="game-category">Puzzles</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">⚔️</div>
+            <h3>Knight Battle</h3>
+            <p class="game-category">Acción</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">⚽</div>
+            <h3>Penalty Kings</h3>
+            <p class="game-category">Deportes</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🐍</div>
+            <h3>Snake Classic</h3>
+            <p class="game-category">Arcade</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🧟</div>
+            <h3>Zombie Survival</h3>
+            <p class="game-category">Acción</p>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== JUEGOS NUEVOS ========== -->
+    <section id="nuevos" class="games-section">
+      <h2>✨ Juegos nuevos</h2>
+      <div class="games-grid">
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🚀</div>
+            <h3>Space Runner</h3>
+            <p class="game-category">Aventura</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">♟️</div>
+            <h3>Mini Chess</h3>
+            <p class="game-category">Estrategia</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🍬</div>
+            <h3>Candy Match</h3>
+            <p class="game-category">Puzzles</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🏀</div>
+            <h3>Basket Shot</h3>
+            <p class="game-category">Deportes</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">🧗</div>
+            <h3>Mountain Climb</h3>
+            <p class="game-category">Aventura</p>
+          </a>
+        </article>
+
+        <article class="game-card">
+          <a href="#">
+            <div class="game-thumb">👾</div>
+            <h3>Pixel Invaders</h3>
+            <p class="game-category">Arcade</p>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== ACERCA DEL PROYECTO ========== -->
+    <section id="acerca" class="about">
+      <h2>Acerca del proyecto</h2>
+      <p>
+        Esta página web estática ha sido creada como proyecto en parejas para practicar
+        HTML, CSS y el trabajo colaborativo con Git y GitHub.
+      </p>
+      <table class="project-info">
+        <tr>
+          <th>Grupo</th>
+          <td>NOMBRE ALUMNO 1 (HTML) y NOMBRE ALUMNO 2 (CSS)</td>
+        </tr>
+        <tr>
+          <th>Fecha</th>
+          <td>23/10/2026</td>
+        </tr>
+        <tr>
+          <th>Asignatura</th>
+          <td>MP0484 Sistemas Informáticos - CFGS DAW</td>
+        </tr>
+        <tr>
+          <th>Tema</th>
+          <td>GitHub</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- ========== PIE DE PÁGINA ========== -->
+  <footer class="site-footer">
+    <p><strong>Grupo:</strong> Rui Huang y Maximo San Martino Alvarez 2</p>
+    <p><strong>Fecha:</strong> 23/10/2026 | <strong>Asignatura:</strong> MP0484 Sistemas Informáticos</p>
+    <p>&copy; 2026 JuegosYA - Proyecto educativo</p>
+  </footer>
+
+</body>
+</html>
