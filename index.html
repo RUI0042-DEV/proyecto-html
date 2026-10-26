@@ -7,6 +7,7 @@
   <title>JuegosYA - Juegos online gratis</title>
   <!-- El Alumno 2 se encarga de este archivo -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/games.css">
 </head>
 <body>
 
@@ -85,7 +86,7 @@
         </article>
 
         <article class="game-card">
-          <a href="#">
+          <a href="#" data-game="penalty">
             <div class="game-thumb">⚽</div>
             <h3>Penalty Kings</h3>
             <p class="game-category">Deportes</p>
@@ -93,7 +94,7 @@
         </article>
 
         <article class="game-card">
-          <a href="#">
+          <a href="#" data-game="snake">
             <div class="game-thumb">🐍</div>
             <h3>Snake Classic</h3>
             <p class="game-category">Arcade</p>
@@ -133,7 +134,7 @@
         </article>
 
         <article class="game-card">
-          <a href="#">
+          <a href="#" data-game="memory">
             <div class="game-thumb">🍬</div>
             <h3>Candy Match</h3>
             <p class="game-category">Puzzles</p>
@@ -141,7 +142,7 @@
         </article>
 
         <article class="game-card">
-          <a href="#">
+          <a href="#" data-game="basket">
             <div class="game-thumb">🏀</div>
             <h3>Basket Shot</h3>
             <p class="game-category">Deportes</p>
@@ -177,7 +178,7 @@
       <table class="project-info">
         <tr>
           <th>Grupo</th>
-          <td>NOMBRE ALUMNO 1 (HTML) y NOMBRE ALUMNO 2 (CSS)</td>
+          <td>Rui Huang (HTML) y Maximo San Martino (CSS)</td>
         </tr>
         <tr>
           <th>Fecha</th>
@@ -198,10 +199,20 @@
 
   <!-- ========== PIE DE PÁGINA ========== -->
   <footer class="site-footer">
-    <p><strong>Grupo:</strong> Rui Huang y Maximo San Martino Alvarez 2</p>
+    <p><strong>Grupo:</strong> Rui Huang y Maximo San Martino</p>
     <p><strong>Fecha:</strong> 23/10/2026 | <strong>Asignatura:</strong> MP0484 Sistemas Informáticos</p>
     <p>&copy; 2026 JuegosYA - Proyecto educativo</p>
   </footer>
 
+  <!-- ========== VENTANA DE JUEGO ========== -->
+  <div id="game-modal" class="game-modal" hidden>
+    <div class="game-dialog">
+      <button id="game-close" class="game-close" type="button" aria-label="Cerrar">✕</button>
+      <h2 id="game-title">Juego</h2>
+      <div id="game-area"></div>
+    </div>
+  </div>
+
+  <script src="js/games.js"></script>
 </body>
 </html>
